@@ -7,6 +7,7 @@ public class BigTest {
 
 	static Scanner sc;
 	
+	// Test Parse
 	public static void parse() 
 	throws IOException {
 		System.out.print("\tEnter integer => ");
@@ -19,6 +20,7 @@ public class BigTest {
 		}
 	}
 	
+	// Test Add
 	public static void add() 
 	throws IOException {
 		System.out.print("\tEnter first integer => ");
@@ -33,6 +35,7 @@ public class BigTest {
 		System.out.println("\t\tSum: " + result);
 	}
 	
+	// Test Multiply
 	public static void multiply() 
 	throws IOException {
 		System.out.print("\tEnter first integer => ");
