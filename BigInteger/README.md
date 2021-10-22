@@ -1,2 +1,6 @@
 # Background
 In general, the maximum value that a java int variable can hold is (2^31)-1. If your task requires the use of even bigger numbers, you can use the long data type, which has a maximum value of (2^63)-1. However, what if you need to work with even larger numbers that cannot be stored as an int or a long variable? For these situations, you need to be able to work with an integer type that can hold arbitrarily large or small positive and negative values with any number of digits. The idea is to store a BigInteger as a linked list, where each digit is a node. For simplicity, since we also want to be able to add and multiply two BigIntegers, we will store the number backwards. For instance, the integer 235 would be stored as: 5 --> 3 --> 2. Note that for the addition method, integers can be negative so this method can essentially subtract as well.
+
+
+# Reflection
+There are definitely things to improve on. The methods are extemely long and I feel like I just wanted to get the project done, so I didn't pay much attention to efficieny. Recurssion is one thing I can look to implement more often. Overall, I really fruthered my understanding of OOP and the use of Linked Lists and Stacks. 
