@@ -132,7 +132,7 @@ public class BigInteger {
 	
 	/**
 	  Adds the first and second big integers, and returns the result in a NEW BigInteger object. 
-	  DOES NOT MODIFY the input big integers.
+	  DO NOT modify the input big integers.
 	  
 	  NOTE that either or both of the input big integers could be negative.
 	  (Which means this method can effectively subtract as well.)
