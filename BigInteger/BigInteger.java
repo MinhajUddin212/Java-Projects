@@ -53,7 +53,6 @@ public class BigInteger {
 	  
 	  @param1 integer Integer string that is to be parsed
 	  @return BigInteger instance that stores the input integer.
-	  @throws IllegalArgumentException If input is incorrectly formatted
 	 */
 	
 	public static BigInteger parse(String integer) 
