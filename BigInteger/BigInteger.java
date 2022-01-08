@@ -17,21 +17,8 @@ public class BigInteger {
 	 */
 	int numDigits;
 	
-	/**
-	  Reference to the first node of this integer's linked list representation
-	  NOTE: The linked list stores the Least Significant Digit in the FIRST node.
-	  For instance, the integer 235 would be stored as:
-	     5 --> 3  --> 2
-	     
-	  Insignificant digits are not stored. So the integer 00235 will be stored as:
-	     5 --> 3 --> 2        
-	 */
 	DigitNode front;
 	
-	/**
-	  Initializes this integer to a positive number with zero digits, in other
-	  words this is the 0 (zero) valued integer.
-	 */
 	public BigInteger() {
 		negative = false;
 		numDigits = 0;
@@ -39,18 +26,6 @@ public class BigInteger {
 	}
 	
 	/**
-	  Parses an input integer string into a corresponding BigInteger instance.
-	  A correctly formatted integer would have an optional sign as the first 
-	  character (no sign means positive), and at least one digit character
-	  (including zero). 
-
-	  Leading and trailing spaces are ignored. So "  +123  " will still parse 
-	  correctly, as +123, after ignoring leading and trailing spaces in the input
-	  string.
-	  
-	  Spaces between digits are not ignored. So "12  345" will not parse as
-	  an integer - the input is incorrectly formatted.
-	  
 	  @param1 integer Integer string that is to be parsed
 	  @return BigInteger instance that stores the input integer.
 	 */
@@ -131,12 +106,6 @@ public class BigInteger {
 	}
 	
 	/**
-	  Adds the first and second big integers, and returns the result in a NEW BigInteger object. 
-	  DO NOT modify the input big integers.
-	  
-	  NOTE that either or both of the input big integers could be negative.
-	  (Which means this method can effectively subtract as well.)
-	  
 	  @param1 first First big integer
 	  @param2 second Second big integer
 	  @return Result big integer
@@ -353,9 +322,6 @@ public class BigInteger {
 	}
 	
 	/**
-	  Returns the BigInteger obtained by multiplying the first big integer
-	  with the second big integer
-	  
 	  @param1 first First big integer
 	  @param2 second Second big integer
 	  @return A new BigInteger which is the product of the first and second big integers
