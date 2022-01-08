@@ -322,7 +322,7 @@ public class BigInteger {
 	}
 	
 	/**
-	  @param1 first First big integer
+	  @param1 first big integer
 	  @param2 second Second big integer
 	  @return A new BigInteger which is the product of the first and second big integers
 	 */
